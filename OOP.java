@@ -129,3 +129,169 @@
 
 
 // Inheritance
+// Singlr Level Inheritance
+// public class OOP{
+//     public static void main(String[] args) {
+//         Fish shark = new Fish();
+//         shark.eat();    
+//     }
+// }
+// // BaseCLass
+// class Animal{
+//     String color;
+//     void eat(){
+//         System.out.println("Eats");
+//     }
+//     void breath(){
+//         System.out.println("Breathes");
+//     }
+// }
+// // DerivedClass
+// class Fish extends Animal{
+//     int fins;
+//     void swim(){
+//         System.out.println("Swims in Water");
+//     }
+// }
+
+// Multiple Inheritance
+// public class OOP{
+//     public static void main(String[] args) {
+//         Dog dobby = new Dog();
+//         dobby.eat();
+//         dobby.legs = 4;
+//         System.out.println(dobby.legs);
+//     }
+// }
+// class Animal{
+//     String color;
+//     void eat(){
+//         System.out.println("Eats");
+//     }
+//     void breathe(){
+//         System.out.println("Breaths");
+//     }
+// }
+// class Mammal extends Animal{
+//     int legs;
+// }
+// class Dog extends Mammal{
+//     String breed;
+// }
+
+// Hierarchial Inheritance:
+// public class OOP{
+//     public static void main(String[] args) {
+//         Mammal
+//     }
+// }
+// class Animal{
+//     String color;
+//     void eat(){
+//         System.out.println("Eats");
+//     }
+//     void Breath(){
+//         System.out.println("Breathes");
+//     }
+// }
+// class Mammal extends Animal{
+//     void walk(){
+//         System.out.println("Walks");
+//     }
+// }
+// class Fish extends Animal{
+//     void swim(){
+//         System.out.println("Swims");
+//     }
+// }
+// class Bird extends Animal{
+//     void fly(){
+//         System.out.println("Fly");
+//     }
+// }
+
+// // Hybrid Inheritance:
+// public class OOP{
+//     public static void main(String[] args) {
+//         Dog dobby = new Dog();
+//         dobby.eat();
+//         dobby.breath();
+//         dobby.walk();
+//         dobby.bark();
+//     }
+// }
+// class Animal{
+//     String color;
+//     void eat(){
+//         System.out.println("Eats");
+//     }
+//     void breath(){
+//         System.out.println("Breathes");
+//     }
+// }
+// class Mammal extends Animal{
+//     void walk(){
+//         System.out.println("Walks");
+//     }
+// }
+// class Fish extends Animal{
+//     void swim(){
+//         System.out.println("Swims");
+//     }
+// }
+// class Bird extends Animal{
+//     void fly(){
+//         System.out.println("Fly");
+//     }
+// }
+// class Dog extends Mammal{
+//     void bark(){
+//         System.out.println("Barking");
+//     }
+// }
+
+// Polymorphism:
+// Compile Time Polymorphism:
+// Method Overloading:
+// public class OOP{
+//     public static void main(String[] args) {
+//         Calculator calc = new Calculator();
+//         System.out.println(calc.sum(2,3));
+//         // System.out.println(calc.sum(2.2,3.3)); By Default it takes as a Double thts why we have to Type Cast.
+//         System.out.println(calc.sum((float)2.2,(float)3.3));
+//         System.out.println(calc.sum(2,3,4));
+//     }
+// } 
+// class Calculator{
+//     int sum(int num1, int num2){
+//         return num1+num2;
+//     }
+//     float sum(float num1, float num2){
+//         return num1+ num2;
+//     }
+//     int sum(int num1, int num2, int num3){
+//         return num1+num2+num3;
+//     }
+// }
+
+// Polymorphism:
+// Run Time Polymorphism:
+// Method Overriding:
+public class OOP{
+    public static void main(String[] args) {
+        Deer deer = new Deer();
+        deer.eat();
+        Animal animal = new Animal();
+        animal.eat();
+    }
+} 
+class Animal{
+    void eat(){
+        System.out.println("Eats");
+    }
+}
+class Deer extends Animal{
+    void eat(){
+        System.out.println("Eats Grass");
+    }
+}
