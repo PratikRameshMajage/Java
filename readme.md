@@ -380,11 +380,189 @@ class Deer extends Animal{
 - Packages is a Groupof Similar Types of Classes, Interfaces and Sub-Packages.
 - InBuild Packages: java.util.*;
 - UserDefined Packages: package myPackage;
+# `Abstraction:`
+- Hiding all the Unnecessary details and showing only the important parts to the user. Idea & Implimentation
+- Abstract Classes
+- Interfaces 
+- Connot create create an instance | Object of Abstract Class.
+- Can have Abstract/Non-Abstract Class.
+- Can have Constructor.
+```java
+// Abstract:
+public class OOP{
+    public static void main(String args[]){
+        Horse hourse = new Horse();
+        hourse.eat();
+        hourse.walk();
+        Peacock peacock = new Peacock();
+        peacock.eat();
+        peacock.walk();
+        Mustang myHorse = new Mustang();
+        // Animal - Horse - Mustang. 
+    }
+}
+abstract class Animal{
+    String color;
+    Animal(){
+        color= "White";
+        System.out.println("Animal Constructor Called.");
+    }
+    void eat(){
+        System.out.println("Animal Eats");
+    }
+    abstract void walk();   //Gives Idea and You have to be this Methoed when you extends. 
+}
+class Horse extends Animal{
+    void changColor(){
+        color = "Black";
+    }
+    Horse(){
+        System.out.println("Hourse Constructor Called.");
+    }
+    void walk(){
+        System.out.println("Hourse walks on 4 legs.");
+    }
+}
+class Mustang extends Horse{
+    Mustang(){
+        System.out.println("Mustang Constructor Called.");
+    }
+}
+class Peacock extends Animal{
+    void changColor(){
+        color = "Purple";
+    }
+    void walk(){
+        System.out.println("Peacock walks on 2 legs.");
+    }
+}
+// Animal Constructor Called.
+// Hourse Constructor Called.
+// Animal Eats
+// Hourse walks on 4 legs.
+// Animal Constructor Called.
+// Animal Eats
+// Peacock walks on 2 legs.
+// Animal Constructor Called.
+// Hourse Constructor Called.
+// Mustang Constructor Called.
+```
+# `Interface:`
+- Interface is Blueprint of a class.
+- Interface(Blueprint of Class) - Class(Blueprint of Object) - Object
+- Use Interface Keyword
+- All Methods are Public, Abstract & Without Imlimentation.
+- Used to achieve total Abstraction.
+- Varible in the Interface are Finaly, Public and Static. 
+- Class - Extends
+- Interface - Impliment
+- Total Abstraction (Interfaces)
+- Multiple Inheritance (Implimentation) 
+- ![Single Level Inheritance](OOPS%20Diagrams/Multiple%20Inheritance.png)
+```java
+// Interface: Blueprint of Class: Achive Multiple Inheritance:
+public class OOP{
+    public static void main(String args[]) {
+        Queen queen = new Queen();
+        queen.moves();
+    }
+}
+interface ChessPlayer{
+    void moves();
+}
+class Queen implements ChessPlayer{
+    public void moves(){
+        System.out.println("Queen: Up, Down, Left, Right, Diagonal, (in all 4 Directions)");
+    }
+}
+class Rook implements ChessPlayer{
+    public void moves(){
+        System.out.println("Rook: Up, Down, Left, Right");
+    }
+}
+class King implements ChessPlayer{
+    public void moves(){
+        System.out.println("King: Up, Down, Left, Right, Diagonal, (by 1 Step)");
+    }
+}
+// Multiple Inheritance:
+interface Herbivors{
+    void eat();
+}
+interface Carnivore{
+    void eat();
+}
+class Bear implements Herbivors, Carnivore{
+    public void eat(){
+        System.out.println("Eat Grass And Eat Meat.");
+    }
+}
+```
+# `Static Keyword::`
+- Static Keyword in Java is used to **Share the Same Variable Or Method of a given Class**  
+- Properties: Variables
+- Methods: Funtions
+- Blocks: {--Club 2-3 Lines of Code--} (Black of Code)
+- Nested Classes: Similar as Nested Loops
+```java
+// Static:
+public class OOP{
+    public static void main(String args[]) {
+        Student student1 = new Student();
+        student1.schoolName = "SubhedarWada";
+
+        Student student2 = new Student();
+        System.out.println(student2.schoolName);
+        System.out.println(student2.returnPercentage(12,12,12));
 
 
-
-
-
+    }
+}
+class Student{
+    String name;
+    int rollno;
+    // Properties:
+    static String schoolName; 
+    // Methods:
+    static int returnPercentage(int math, int phy, int chem){
+        return(math+phy+chem)/3;
+    }
+    void setName(String name){
+        this.name = name;
+    }
+    String getName(){
+        return this.name;
+    }
+}
+```
+# `Super Keyword::`
+- Super keywordis used to **refer Immediate Parent Class Object.**  
+- To Access Parent's Properties.
+- To Access Parent's Functions.
+- To Access Parent's Constructor.
+```java
+// Super:
+public class OOP{
+    public static void main(String args[]) {
+        Horse horse = new Horse();
+        System.out.println(horse.color);
+    }   
+}
+class Animal{
+    String color;
+    Animal(){
+        System.out.println("Animal Constructor Callaed");
+    }
+}
+class Horse extends Animal{
+    Horse(){
+        super.color = "Brown";
+        System.out.println("Horse Constructor Called");
+    }
+}
+```
+- Advanced: Constructive Chaining You can Learn.
+- End OOP's
 
 
 
