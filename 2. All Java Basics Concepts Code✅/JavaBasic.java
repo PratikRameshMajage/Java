@@ -1,13 +1,13 @@
 // import java.util.*;
 // PRINT OUTPUT
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         System.out.println("Pratik Majage");
 //     }
 // }
 
 // FACTORIAL
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         int n = 5;
 //         int fact = 1;
@@ -20,7 +20,7 @@
 
 // ADDITION
 // import java.util.*;
-// public class javaBasic {
+// public class JavaBasic {
 //     public static void main(String args[]) {
 //         Scanner sc = new Scanner(System.in);
 //         int numberOne = sc.nextInt(); 
@@ -33,7 +33,7 @@
 // }
 
 // SQUARE PATTERN
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]) {
 //         Scanner sc = new Scanner(System.in);
 //         int n = sc.nextInt();
@@ -52,7 +52,7 @@
 // * * * * *
 
 // ASSENDING PATTERN
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]) {
 //         Scanner sc = new Scanner(System.in);
 //         int n = sc.nextInt();
@@ -71,7 +71,7 @@
 // * * * * *
 
 // DESCENDING PATTERN
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]) {
 //         Scanner sc = new Scanner(System.in);
 //         int n = sc.nextInt();
@@ -89,7 +89,7 @@
 // * *
 // *
 
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]) {
 //         System.out.println("\nPratik Majage\n");
 //         int n = 4;
@@ -111,7 +111,7 @@
 // *     *
 // * * * *
 
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]) {
 //         int n = 4;
 //         for(int i=1; i<=n; i++ ){
@@ -135,7 +135,7 @@
 //   *     *
 //  * * * *
 
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         int n = 4;
 //         for(int i=1; i<=n; i++){
@@ -180,7 +180,7 @@
 // * * - - - - * *
 // * - - - - - - *
 
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         int n = 4;
 //         for(int i=n; i>=1; i--){
@@ -196,7 +196,7 @@
 // * *
 // *
 
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         int n = 5;
 //         int num = 1;
@@ -215,7 +215,7 @@
 // 7 8 9 10
 // 11 12 13 14 15
 
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         int n = 8;
 //         int num = 97;
@@ -239,7 +239,7 @@
 // } ~  ? ? ? ? ?
 
 // FACTORIAL:-
-// public class javaBasic{
+// public class JavaBasic{
 //     public static int fact(int num){
 //         int factorial = 1;
 //         for(int i=1; i<=num; i++){
@@ -256,7 +256,7 @@
 // factorial of 5 is 120
 
 // Fibonnachi searies - 1,1,2,3,5,8,13,21
-// public class javaBasic {
+// public class JavaBasic {
 //     public static int fib(int n){
 //         if (n==0 || n==1) {
 //             return n; 
@@ -274,7 +274,7 @@
 // }
 
 // AREA OF CIRCLE:-
-// public class javaBasic {
+// public class JavaBasic {
 //     public static void areaOfCircle(float radius){
 //         float pi = 3.14f;
 //         float areaOfCircle = pi * radius * radius;
@@ -291,7 +291,7 @@
 // 78.5
 
 // CALCULATOR:-
-// public class javaBasic {
+// public class JavaBasic {
 //     public static void calculator(float number1, float number2, char operator){
 //         switch (operator) {
 //             case '+': 
@@ -345,7 +345,7 @@
 // NONE
 
 // VERIFY AGE:-
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void verify(int age){
 //         if(age>=18){
 //             System.out.println("you are Adult.");
@@ -366,7 +366,7 @@
 // you are NOT Adult.
 
 // LARGEST OF 2 NUMBERS:-
-// public class javaBasic{
+// public class JavaBasic{
 //     public static int largestOfTwo(int number1, int number2){
 //         if(number1>=number2){
 //             return number1;
@@ -392,7 +392,7 @@
 
 
 // LARGEST BETWEEN 3 NUMBER:-
-// public class javaBasic{
+// public class JavaBasic{
 //     public static int largestNumber(int number1, int number2, int number3){
 //         if(number1>number2){
 //             return number1;
@@ -445,7 +445,7 @@
 // The given Number is Prime
 
 // EVEN ODD
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void EvenOdd(int number){
 //         if(number%2==0){
 //             System.out.println("The given Number "+number+" is Even");
@@ -467,7 +467,7 @@
 
 
 // INCOME TAX CALCULATOR:-
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void taxCalculator(int annualIncome){
 //         float tax;
 //         if(annualIncome>=500000){
@@ -498,7 +498,7 @@
 
 
 // TERNORY OPERATOR
-// public class javaBasic{
+// public class JavaBasic{
 //     public static String checkPassOrFail(int marks){
 //         String result =  (marks>=40) ? "Pass" : "Fail";
 //         return result;
@@ -516,7 +516,7 @@
 
 
 // CANTEEN MENU:-
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         Scanner sc = new Scanner(System.in);
 //         System.out.println("What do you have in Order?");
@@ -539,7 +539,7 @@
 // Sugarcane-Juice.
 
 // Loops Types- for loop, while loop, do-while loop
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         int n = 5;
 //         int i = 1;
@@ -556,7 +556,7 @@
 // Pratik
 // Pratik
 
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         int i=1;
 //         int n=5;
@@ -574,7 +574,7 @@
 // 5
 
 // PRINT NUMBERS 1 TO 100
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         int n=100;
 //         int counter=1;
@@ -587,7 +587,7 @@
 // OUTPUT:-
 // 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100
 
-// public class javaBasic{
+// public class JavaBasic{
 //     public static void main(String args[]){
 //         Scanner sc = new Scanner(System.in);
 //         System.out.print("Enter How much Values you want to Print: ");
@@ -612,7 +612,7 @@
 // }
 
 // CALCULATE FIRST N NATURAL NUMBERS
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 Scanner sc =new Scanner(System.in);
 //                 System.out.print("Enter Nth Value: ");
@@ -628,7 +628,7 @@
 // Enter Nth Value: 5
 // Nth Value SUM is: 15
 
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 Scanner sc = new Scanner(System.in);
 //                 System.out.print("Enter Number you want to Reverce: ");
@@ -652,7 +652,7 @@
 // This is Reverce Number: 987654321
 
 // BREAK AND CONTINUE
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 int number1 = 0;
 //                 int number2 = 0;
@@ -678,7 +678,7 @@
 // 1 2 4 5
 
 // KEEP ENTERING NUMBERS TILL IT MULTIPLE OF 10:-
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 Scanner sc = new Scanner(System.in);
 //                 int n = 0;
@@ -719,7 +719,7 @@
 
 
 // SWAP NUMBERS:- CLASSICAL CODE FOR SWAPPING 
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 Scanner sc = new Scanner(System.in);
 //                 System.out.print("Enter 1st Number: ");
@@ -740,7 +740,7 @@
 // After Swap 1st number is: 3
 // After Swap 2st number is: 2
 
-// public class javaBasic{
+// public class JavaBasic{
 //         public static int factorial(int number){ 
 //                 if (number==0 || number==1) {
 //                         return number; 
@@ -758,7 +758,7 @@
 
 
 // BINOMIAL COEFICIENT
-// public class javaBasic{
+// public class JavaBasic{
 //         public static int factorial(int number){ 
 //                 if (number==0 || number==1) {
 //                         return number; 
@@ -792,7 +792,7 @@
 // Binomial Coefficient: 10
 
 // FUNCTION OVERLOADING
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void sum(int number1, int number2){
 //                 int ans = number1 + number2;
 //                 System.out.println("Integer ANS: "+ans);
@@ -820,7 +820,7 @@
 // Integer ANS: 7
 // Float ANS: 7.0
 
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void sum(int num1, int num2){
 //                 int ans = num1 + num2;
 //                 System.out.println("2 Parameter ANS: "+ans);
@@ -842,7 +842,7 @@
 // 3 Parameter ANS: 39
 
 // OPTIMIZE METHORD TO CHECK PRIME NUMBERS:-
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void checkIsPrime(int number){
 //                 for(int i=1; i<=Math.sqrt(number); i++){
 //                         if (number%2 != 0 || number == 2) {
@@ -867,7 +867,7 @@
 // 9 is Prime
 
 // PRINT ALL INTEGER FROM 1 TO N'TH NUMBER:-
-// public class javaBasic{
+// public class JavaBasic{
 //         public static boolean isPrime(int nthNumber){
 //                 for(int i = 1; i<=nthNumber; i++ ){
 //                         if (nthNumber%2==0) {
@@ -895,7 +895,7 @@
 // 1 3 5 7 9 11 13 15 17 19
 
 // BINARY TO DECIMAL:-
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void binaryToDecimal(int number){
 //                 int decimal = 0;
 //                 int pow = 0;
@@ -920,7 +920,7 @@
 // Decimal Number of 10101 is: 21
 
 // DECIMAL TO BINARY:-
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void decimalToBinary(int number){
 //                 int binary = 0;
 //                 int pow = 0;
@@ -946,7 +946,7 @@
 // Decimal Number of 11 is: 1011
 
 // PRINT HOLLOW RECTANGLE:-
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 int num = 4;
 //                 for(int i =1; i<=num; i++ ){
@@ -969,7 +969,7 @@
 // * * * *
 
 // INVERTED AND ROTATED HALF PYRAMID
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 int n = 4;
 //                 for(int i=1; i<=n; i++ ){
@@ -990,7 +990,7 @@
 // * * * *
 
 // INVERTED HALF PYRAMID WITH NUMBERS:-
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 int n = 5; 
 //                 for(int i = 1; i<=n; i++){
@@ -1010,7 +1010,7 @@
 // 1
 
 // FLOYD'S TRIANGLE
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 int n = 5;
 //                 int count = 1;
@@ -1031,7 +1031,7 @@
 // 11 12 13 14 15
 
 // 1-0 HALF TRIANGLE PATTERN
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 int n = 5;
 //                 for(int i = 1; i<=n; i++ ){
@@ -1054,7 +1054,7 @@
 // 1 0 1 0 1
 
 // BUTTERFLY PATTERN
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 int n = 4;
 //                 for(int i=1; i<=n; i++){
@@ -1094,7 +1094,7 @@
 // *             *
 
 // SOLID RHOMBUS:-
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 int n = 4;
 //                 for(int i = 1; i<=n; i++){
@@ -1115,7 +1115,7 @@
 //    *  *  *  *
 
 // HOLLOW RHOMBUS:-
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 int n = 5;
 //                 for(int i=1; i<=n; i++){
@@ -1142,7 +1142,7 @@
 //   * * * * *
 
 // DIAMOND PATTERN:-
-// public class javaBasic{
+// public class JavaBasic{
 //         public static void main(String args[]){
 //                 int n = 4;
 //                 for(int i=1; i<=n; i++){

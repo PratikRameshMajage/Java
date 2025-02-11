@@ -1,4 +1,4 @@
-// public class OOP{
+// public class Oop{
 //     // Compiler Always Start Execution From Main Method:
 //     // Public: Access Specifier.
 //     // Static: Without Creating Object to Use Main Method. 
@@ -43,7 +43,7 @@
 // }
 
 // Access Specifier:
-// public class OOP{
+// public class Oop{
 //     public static void main(String args[]) {
 //         Pen p1 = new Pen();
 //         p1.setColor("Red");
@@ -76,7 +76,7 @@
 // }
 
 // Constructor:
-// public class OOP{
+// public class Oop{
 //     public static void main(String args[]) {
 //         Student s1 = new Student();
 //         Student s2 = new Student("Pratik",22,"12345");
@@ -130,7 +130,7 @@
 
 // Inheritance
 // Singlr Level Inheritance
-// public class OOP{
+// public class Oop{
 //     public static void main(String[] args) {
 //         Fish shark = new Fish();
 //         shark.eat();    
@@ -155,7 +155,7 @@
 // }
 
 // Multiple Inheritance
-// public class OOP{
+// public class Oop{
 //     public static void main(String[] args) {
 //         Dog dobby = new Dog();
 //         dobby.eat();
@@ -180,7 +180,7 @@
 // }
 
 // Hierarchial Inheritance:
-// public class OOP{
+// public class Oop{
 //     public static void main(String[] args) {
 //         Mammal
 //     }
@@ -211,7 +211,7 @@
 // }
 
 // // Hybrid Inheritance:
-// public class OOP{
+// public class Oop{
 //     public static void main(String[] args) {
 //         Dog dobby = new Dog();
 //         dobby.eat();
@@ -253,7 +253,7 @@
 // Polymorphism:
 // Compile Time Polymorphism:
 // Method Overloading:
-// public class OOP{
+// public class Oop{
 //     public static void main(String[] args) {
 //         Calculator calc = new Calculator();
 //         System.out.println(calc.sum(2,3));
@@ -277,7 +277,7 @@
 // Polymorphism:
 // Run Time Polymorphism:
 // Method Overriding:
-// public class OOP{
+// public class Oop{
 //     public static void main(String[] args) {
 //         Deer deer = new Deer();
 //         deer.eat();
@@ -297,7 +297,7 @@
 // }
 
 // Abstract:
-// public class OOP{
+// public class Oop{
 //     public static void main(String args[]){
 //         Horse hourse = new Horse();
 //         hourse.eat();
@@ -356,7 +356,7 @@
 // Mustang Constructor Called.
 
 // Interface: Blueprint of Class: Achive Multiple Inheritance:
-// public class OOP{
+// public class Oop{
 //     public static void main(String args[]) {
 //         Queen queen = new Queen();
 //         queen.moves();
@@ -394,7 +394,7 @@
 // }
 
 // // Static:
-// public class OOP{
+// public class Oop{
 //     public static void main(String args[]) {
 //         Student student1 = new Student();
 //         student1.schoolName = "SubhedarWada";
@@ -424,7 +424,7 @@
 // }
 
 // Super:
-public class OOP{
+public class Oop{
     public static void main(String args[]) {
         Horse horse = new Horse();
         System.out.println(horse.color);
