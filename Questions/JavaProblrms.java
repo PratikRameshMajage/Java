@@ -1,6 +1,12 @@
 import java.util.*;
 
 public class JavaProblrms {
+
+    public static void add(){
+        int a = 2;
+        int b = 3;
+        System.out.println("Addition is: "+(a+b));
+    }
     public static void main(String args[]){
         DoubleReverceNumber obj1 = new DoubleReverceNumber();
         // obj1.doubleReverceNumber();
@@ -39,6 +45,28 @@ public class JavaProblrms {
         ThisVariableAndMethord obj10 = new ThisVariableAndMethord();
         obj10.calc(10);
 
+
+        ArithmaticMethods obj11 = new ArithmaticMethods();
+        add();
+        obj11.sub();
+        obj11.mul();
+        obj11.div();
+        obj11.mod();
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        int num1 = sc.nextInt();
+        System.out.println("Enter Second Number: ");
+        int num2 = sc.nextInt();
+        System.out.println("Addition is: "+(num1+num2));
+        System.out.println("Subtraction is: "+(num1-num2));
+        System.out.println("Produst is: "+(num1*num2));
+        System.out.println("Questiont is: "+(num1/num2));
+        System.out.println("Remainder is: "+(num1%num2));
+
+
+        
     }
 }
 
@@ -112,14 +140,6 @@ class ReverceNumber {
         System.out.println("Rever Number is: " + sum);
     }
 }
-
-
-
-
-
-
-
-
 
 class Polimorphisum {
     void polimorphisum(){
@@ -277,16 +297,7 @@ class D extends C{
     
     // 5. Hybrid Inheritance - 
         // the combination of many multiple inheritance classes inherit there propertes that is known as hybrid inheritance.
-    
-
-
-
-
-
-
-
-
-        
+       
 class DataType{
     void datatypes(){
         Scanner sc = new Scanner(System.in);
@@ -390,5 +401,29 @@ class ThisVariableAndMethord{
         this.num2 = sc.nextInt();
         this.num3 = num3;
         System.out.println("Multiplication of Three Number is: "+(this.num1*this.num2*this.num3)+"\n");
+    }
+}
+
+
+class ArithmaticMethods {
+    void sub(){
+        int a = 2;
+        int b = 3;
+        System.out.println("Subtraction is: "+(a-b));
+    }
+    void mul(){
+        int a = 2;
+        int b = 3;
+        System.out.println("Mutiplication is: "+(a*b));
+    }
+    void div(){
+        int a = 2;
+        int b = 3;
+        System.out.println("Division is: "+(a/b));
+    }
+    void mod(){
+        int a = 2;
+        int b = 3;
+        System.out.println("Modulos is: "+(a%b));
     }
 }
