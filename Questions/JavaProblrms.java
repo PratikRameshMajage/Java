@@ -45,14 +45,12 @@ public class JavaProblrms {
         ThisVariableAndMethord obj10 = new ThisVariableAndMethord();
         obj10.calc(10);
 
-
         ArithmaticMethods obj11 = new ArithmaticMethods();
         add();
         obj11.sub();
         obj11.mul();
         obj11.div();
         obj11.mod();
-
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number: ");
@@ -65,8 +63,148 @@ public class JavaProblrms {
         System.out.println("Questiont is: "+(num1/num2));
         System.out.println("Remainder is: "+(num1%num2));
 
+        ConstructorOverloading obj12 = new ConstructorOverloading(5,5);
+        obj12.print();
+        obj12.print(5);
+        obj12.print(5, 'a');
 
-        
+        InstanceLocalVarivle obj13 = new InstanceLocalVarivle();
+        // Instance Variable
+        System.out.println("a is: "+ obj13.a);
+        System.out.println("b is: "+ obj13.b);
+        // Local Variable
+        obj13.m1();
+
+        int i;
+        // Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Number: ");
+        int num = sc.nextInt();
+        for( i=1; i<=num; i++){
+            if (i%2!=0  && i%3!=0 && i%5!=0 && i%7!=0 && i%11!=0 || i==1 || i==2 || i==3 || i==5 || i==7 || i==11) {
+                System.out.print("\t"+i);
+            }
+        }
+
+        // Total 8 Primitive Data types. -> byte,short,int,long,float,double,char,boolean 
+        byte bt = 1; // 1 byte
+        System.out.println("Byte is: "+bt);
+
+        short sh = 2; // 2 byte
+        System.out.println("Short is: "+sh);
+
+        int a = 3; // 4 byte
+        System.out.println("Integer is: "+a);
+
+        long lg = 1234567890; // 8 byte
+        System.out.println("Long is: "+lg);
+
+        float fl = (float)5.5; // 4 byte
+        System.out.println("Float is: "+fl);
+
+        double db = 12345.67890; // 8 byte
+        System.out.println("Double is: "+db);
+
+        char ch = 'A'; // 1 byte
+        System.out.println("Char is: "+ch);
+
+        boolean bl = true; // 1 byte
+        System.out.println("Boolean is: "+bl);
+
+        ReturnMethord obj14 = new ReturnMethord();
+        System.out.println("Return Methord: -");
+        System.out.println("Addition is: "+obj14.add());
+        System.out.println("Subtaraction is: "+obj14.sub());
+        System.out.println("Product is: "+obj14.mul());
+        System.out.println("Questiont is: "+obj14.div());
+        System.out.println("Remainder is: "+obj14.mod());
+        System.out.println("Charecter is: "+obj14.value());
+
+        // Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Integer: ");
+        int num11 = sc.nextInt();
+
+        System.out.println("Enter Float: ");
+        float num22 = sc.nextFloat();
+
+        System.out.println("Enter Long: ");
+        long num3 = sc.nextLong();
+
+        System.out.println("Enter Double: ");
+        double num4 = sc.nextDouble();
+
+        System.out.println("Enter Short: ");
+        short num5 = sc.nextShort();
+
+        System.out.println("Enter Byte: ");
+        byte num6 = sc.nextByte();
+
+        System.out.println("Enter Boolean : ");
+        boolean num7 = sc.nextBoolean();
+
+        System.out.println("Enter Charecter: ");
+        char ch1 = sc.next().charAt(0);
+
+        System.out.println("Integer is: "+num11+"\nFloat is: "+num22+"\nLong is: "+num3+"\nDouble is: "+num4+"\nShort is: "+num5+"\nByte is: "+num6+"\nBoolean is: "+num7+"\nCharecter is: "+ch1);
+
+        ThisInstance obj15 = new ThisInstance();
+        obj15.base(2,4);
+    }
+}
+
+class ThisInstance {
+    int a;
+    int b;
+    void base(int a, int b){
+        this.a=a;
+        this.b=b;
+        System.out.println("\nThe Value of a: "+a+"\n");
+        System.out.println("\nThe Value of b: "+b+"\n");
+    }
+}
+
+class ReturnMethord {
+    int add(){
+        int a = 2;
+        int b = 3;
+        return a+b;
+    }
+    int sub(){
+        int a = 2;
+        int b = 3;
+        return a-b;
+    }
+    int mul(){
+        int a = 2;
+        int b = 3;
+        return a*b;
+    }
+    int div(){
+        int a = 2;
+        int b = 3;
+        return a/b;
+    }
+    int mod(){
+        int a = 2;
+        int b = 3;
+        return a%b;
+    }
+    char value(){
+        char ch = 'A';
+        return ch;
+    }
+}
+
+class InstanceLocalVarivle {
+    int a;
+    int b;
+    // int a = 5;
+    // int b = 10;
+    void m1(){
+        // Local Variable
+        int a=15;
+        int b=20;
+        System.out.println("a is: "+a);
+        System.out.println("b is: "+b);
     }
 }
 
@@ -425,5 +563,31 @@ class ArithmaticMethods {
         int a = 2;
         int b = 3;
         System.out.println("Modulos is: "+(a%b));
+    }
+}
+
+
+class ConstructorOverloading {
+    ConstructorOverloading(){
+        System.out.println("pratik");
+    }
+    ConstructorOverloading(int num){
+        this();
+        System.out.println("num is: "+num);
+    }
+    ConstructorOverloading(int num1, int num2){
+        // this();
+        this(5);
+        System.out.println("num is: "+(num1+num2));
+    }
+
+    void print(){
+        System.out.println("hi");
+    }
+    void print(int num){
+        System.out.println("byy");
+    }
+    void print(int num, char ch){
+        System.out.println("number is: "+num+"\ncharecter is: "+ch);
     }
 }
